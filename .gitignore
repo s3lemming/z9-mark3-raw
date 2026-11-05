@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.bin
+*.bi
+*.elf
+*.o
+_private/

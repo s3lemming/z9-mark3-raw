@@ -1,0 +1,93 @@
+.section .text.hooks,"ax"
+.global hook_retain
+hook_retain:
+ sub sp,sp,#176
+ stp x0,x1,[sp]
+ stp x2,x3,[sp,#16]
+ stp x4,x5,[sp,#32]
+ stp x6,x7,[sp,#48]
+ stp x8,x9,[sp,#64]
+ stp x10,x11,[sp,#80]
+ stp x12,x13,[sp,#96]
+ stp x14,x15,[sp,#112]
+ stp x16,x17,[sp,#128]
+ stp x18,x30,[sp,#144]
+ mov x0,x23
+ bl m3_probe_retain
+ str w0,[sp,#160]
+ ldp x0,x1,[sp]
+ ldp x2,x3,[sp,#16]
+ ldp x4,x5,[sp,#32]
+ ldp x6,x7,[sp,#48]
+ ldp x8,x9,[sp,#64]
+ ldp x10,x11,[sp,#80]
+ ldp x12,x13,[sp,#96]
+ ldp x14,x15,[sp,#112]
+ ldp x16,x17,[sp,#128]
+ ldp x18,x30,[sp,#144]
+ ldr w9,[sp,#160]
+ add sp,sp,#176
+ cbz w9,1f
+ b retain_continue
+1:
+ ldr x0,[x23,#0x748]
+ bl native_E_release
+ str xzr,[x23,#0x748]
+ b retain_continue
+.global hook_compose
+hook_compose:
+ sub sp,sp,#48
+ stp x0,x1,[sp]
+ stp x2,x30,[sp,#16]
+ bl native_compose
+ str x0,[sp,#32]
+ mov x0,x19
+ mov x1,x20
+ ldr x2,[sp,#16]
+ ldr w3,[sp,#8]
+ bl m3_probe_compose
+ ldr x0,[sp,#32]
+ ldr x30,[sp,#24]
+ add sp,sp,#48
+ ret
+.global hook_write
+hook_write:
+ mov x3,x25
+ b m3_probe_write
+.global hook_codec_alloc
+hook_codec_alloc:
+ mov x3,x19
+ b m3_codec_E_alloc
+.global hook_codec_decoder
+hook_codec_decoder:
+ sub sp,sp,#176
+ stp x0,x1,[sp]
+ stp x2,x3,[sp,#16]
+ stp x4,x5,[sp,#32]
+ stp x6,x7,[sp,#48]
+ stp x8,x9,[sp,#64]
+ stp x10,x11,[sp,#80]
+ stp x12,x13,[sp,#96]
+ stp x14,x15,[sp,#112]
+ stp x16,x17,[sp,#128]
+ stp x18,x30,[sp,#144]
+ mrs x9,nzcv
+ str x9,[sp,#160]
+ mov x0,x23
+ bl m3_codec_decoder_selector
+ str w0,[sp,#168]
+ ldr x9,[sp,#160]
+ msr nzcv,x9
+ ldp x0,x1,[sp]
+ ldp x2,x3,[sp,#16]
+ ldp x4,x5,[sp,#32]
+ ldp x6,x7,[sp,#48]
+ ldp x8,x9,[sp,#64]
+ ldp x10,x11,[sp,#80]
+ ldp x12,x13,[sp,#96]
+ ldp x14,x15,[sp,#112]
+ ldp x16,x17,[sp,#128]
+ ldp x18,x30,[sp,#144]
+ ldr w9,[sp,#168]
+ add sp,sp,#176
+ b codec_decoder_continue

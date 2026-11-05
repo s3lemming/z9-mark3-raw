@@ -1,0 +1,43 @@
+{
+  "source": "P589 accepted v39 QEMU LCD rasters; selected historical run images, no new boot implied",
+  "images": [
+    {
+      "file": "docs/assets/screens/image-quality.png",
+      "member": "acceptance-cold-menu-01/regression-menu-541.png",
+      "SHA256": "0253d2faedd076614843e38bfbb8a9694f647f6daf7a7263685ba4629aa11ac9",
+      "MAIN_SHA256": "6c768c7f153338e1b32ecb58ce51c8f4517461b21d8fa3bd944c7d19e22181cc",
+      "virtual_ns": 303089597713,
+      "selected_UI": "0x29c8",
+      "selection_top": 0,
+      "unaltered": true
+    },
+    {
+      "file": "docs/assets/screens/hsfc-groups.png",
+      "member": "acceptance-cold-menu-01/regression-menu-559.png",
+      "SHA256": "08cd91559a6ee8b794d0ec33e1a506f9ac6aa513206d2a81d5b427330de8c134",
+      "MAIN_SHA256": "6c768c7f153338e1b32ecb58ce51c8f4517461b21d8fa3bd944c7d19e22181cc",
+      "virtual_ns": 309576572548,
+      "selected_UI": "0x7e85",
+      "selection_top": 0,
+      "unaltered": true
+    },
+    {
+      "file": "docs/assets/screens/c15-c30-format.png",
+      "member": "acceptance-cold-menu-01/regression-menu-568.png",
+      "SHA256": "7318f74a167fbc039c30d07dd7553611fbaaa4e5e13b8e969dec3bb5bf9a0705",
+      "MAIN_SHA256": "6c768c7f153338e1b32ecb58ce51c8f4517461b21d8fa3bd944c7d19e22181cc",
+      "virtual_ns": 312760580332,
+      "selected_UI": "0x7e82",
+      "selection_top": 2,
+      "unaltered": true
+    },
+    {
+      "file": "docs/assets/screens/sound-cus.png",
+      "SHA256": "73a02696cb39630b9a9bb1ff3d881a0e6692bce672f6228c1288c14cf464b1b4",
+      "MAIN_SHA256": "6c768c7f153338e1b32ecb58ce51c8f4517461b21d8fa3bd944c7d19e22181cc",
+      "unaltered": true
+    }
+  ],
+  "UI_copyright": "Nikon UI shown for documentation; project license does not claim ownership of vendor UI",
+  "personal_audio_filename_not_published": true
+}

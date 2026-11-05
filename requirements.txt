@@ -1,0 +1,2 @@
+numpy
+# PDF authoring additionally needs reportlab, pypdf and a locally licensed CJK font.

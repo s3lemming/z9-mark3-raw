@@ -1,0 +1,239 @@
+{
+  "date": "2026-11-05",
+  "records": [
+    {
+      "id": "E332",
+      "title": "mark3_原版S_HE与HEstar完整NEF基线_P332",
+      "private_report_filename": "mark3_原版S_HE与HEstar完整NEF基线_P332.md",
+      "SHA256": "ca8b209c86a097bee881d584e9118a338b884475011e324fb0c63b74f73dd338",
+      "scope": "Original firmware + QEMU/files",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E420",
+      "title": "mark3_RAW位深与HSFC品质缓存来源_P420",
+      "private_report_filename": "mark3_RAW位深与HSFC品质缓存来源_P420.md",
+      "SHA256": "a66d9cbd4a58433e9dfea408cfeaf85c2e19e8a796ccb4f03aa85c3ce81c5023",
+      "scope": "Original ARM component",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E468",
+      "title": "mark3_实机S与C15_HE_RAW容量差异_P468",
+      "private_report_filename": "mark3_实机S与C15_HE_RAW容量差异_P468.md",
+      "SHA256": "b57b8d24846e72b9275aedc82c46b75a16046e0fa38fa96e78d3c54220769c6b",
+      "scope": "Physical file comparison",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E473",
+      "title": "mark3_HSFC外层空摘要与分组格式显示_P473",
+      "private_report_filename": "mark3_HSFC外层空摘要与分组格式显示_P473.md",
+      "SHA256": "62bc7ed87a4bd389418aa52daba67e6b65711d3929b73e2c17b9c382fb9e614d",
+      "scope": "Actual menu raster",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E474",
+      "title": "mark3_HEstar解码接口与菜单集成_P474",
+      "private_report_filename": "mark3_HEstar解码接口与菜单集成_P474.md",
+      "SHA256": "97f77c7f6b07bcf119cbd405792c6caaef46ed9c40f9d9f23fe3afdaaaa01074",
+      "scope": "Native/QEMU partial matrix",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E475",
+      "title": "mark3_辅助图来源与rXX预算复核_P475",
+      "private_report_filename": "mark3_辅助图来源与rXX预算复核_P475.md",
+      "SHA256": "c7903d49acd30ef8bb5b32479dc41d7a407181bd07ff5186bb4ed46e55844a57",
+      "scope": "Source/budget analysis",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E476",
+      "title": "mark3_HEstar内嵌JPEG大小与rXX估算_P476",
+      "private_report_filename": "mark3_HEstar内嵌JPEG大小与rXX估算_P476.md",
+      "SHA256": "89b444d2c24764a428055fd26b2d1afaeedbd80e9734e16819f2e8dc5b73d084",
+      "scope": "Files and explicit arithmetic",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E496",
+      "title": "mark3_JPEG与RAW快速裁切分流及配对反馈_P496",
+      "private_report_filename": "mark3_JPEG与RAW快速裁切分流及配对反馈_P496.md",
+      "SHA256": "6b4be5a375893f49b5c823d8fa662d7844334f83d32c170d996b683b65c8085c",
+      "scope": "Runtime branch analysis",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E519",
+      "title": "mark3_卡2实机失败与每卡NEF数据库选择修正_P519",
+      "private_report_filename": "mark3_卡2实机失败与每卡NEF数据库选择修正_P519.md",
+      "SHA256": "f483958a4764833696f485ee5924f7602ee7b5ead83ed9e293a5261384f7e7b7",
+      "scope": "Physical failure / source fix",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E520",
+      "title": "mark3_ShotInfo同帧写出与原版卡2平台接通_P520",
+      "private_report_filename": "mark3_ShotInfo同帧写出与原版卡2平台接通_P520.md",
+      "SHA256": "b65014a050a560ad49f8f8109f9e88f5b7ae57fd9a1bcc98778addb627f01b47",
+      "scope": "Same-frame contracts",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E527",
+      "title": "mark3_ShotInfo业务属性与Scene上游来源_P527",
+      "private_report_filename": "mark3_ShotInfo业务属性与Scene上游来源_P527.md",
+      "SHA256": "8cff40fa1846ca861c4da0f34ee101e1047d4999b56645fc5b3dad398ab9efbb",
+      "scope": "Original consumer mapping",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E534",
+      "title": "mark3_Cxx_RAW的S类Mkind接入与辅助源环追踪及v35打包_P534",
+      "private_report_filename": "mark3_Cxx_RAW的S类Mkind接入与辅助源环追踪及v35打包_P534.md",
+      "SHA256": "64e44a6b6ae6f8e64c811d72f033ef88a4a2c31988c263a21d8d5a1eaac2869d",
+      "scope": "Frozen v35 build",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E536",
+      "title": "mark3_v35辅助图阻碍与七段ShotInfo缺口复核_P536",
+      "private_report_filename": "mark3_v35辅助图阻碍与七段ShotInfo缺口复核_P536.md",
+      "SHA256": "ee2e11caf3c0ed057c9622c76fadf4e463f7e644dfd44075a80c1669ff374a25",
+      "scope": "Gap ledger",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E561",
+      "title": "mark3_RAW回放放大使用内嵌JPEG的证据复核_P561",
+      "private_report_filename": "mark3_RAW回放放大使用内嵌JPEG的证据复核_P561.md",
+      "SHA256": "b53fbbb3af7321a420b371e343981d343bd8f6d9259131d70688a8ad0e0604a1",
+      "scope": "Original file/consumer",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E565",
+      "title": "mark3_快速裁切全链路执行顺序与覆盖审计_P565",
+      "private_report_filename": "mark3_快速裁切全链路执行顺序与覆盖审计_P565.md",
+      "SHA256": "0112b5bed3b209f7219025887fd14b7daa08b4b673567ba32291fff4818b036e",
+      "scope": "Model coverage audit",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E568",
+      "title": "mark3_NR失败后资源仍被ISP接纳与冷处理原因收敛_P568",
+      "private_report_filename": "mark3_NR失败后资源仍被ISP接纳与冷处理原因收敛_P568.md",
+      "SHA256": "8759292c3f355d9af979cdb88b99c6767b486958bc69754812388dda3dbeaf91",
+      "scope": "Original failure propagation",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E569",
+      "title": "mark3_QEMU快速裁切逐代流程补齐与原版v35连续回归_P569",
+      "private_report_filename": "mark3_QEMU快速裁切逐代流程补齐与原版v35连续回归_P569.md",
+      "SHA256": "56599fdf29b1df1ac41076cddbfe4a7ff24864c02c742cc0c67a60a8cdec9d6e",
+      "scope": "A/B/A source identity",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E578",
+      "title": "mark3_v35_S_C30辅助条件源与QEMU修复验证_P578",
+      "private_report_filename": "mark3_v35_S_C30辅助条件源与QEMU修复验证_P578.md",
+      "SHA256": "61889968efa04ce516a2610de229e25620cce50b86d43c863ad114c3d4f20a2e",
+      "scope": "Corrected parameter meaning",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E580",
+      "title": "mark3_高ISO降噪开关不影响异常的实机补充_P580",
+      "private_report_filename": "mark3_高ISO降噪开关不影响异常的实机补充_P580.md",
+      "SHA256": "600f1769a1e021b54f97f15bb87067ccdd038869178d49b8c017e9841e717419",
+      "scope": "User physical feedback",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E582",
+      "title": "mark3_DSP动态窗口模型修复与原版v35裁切回归_P582",
+      "private_report_filename": "mark3_DSP动态窗口模型修复与原版v35裁切回归_P582.md",
+      "SHA256": "afd81b6f86a6d0828fcf608d2d6bc5723f3862b460b7ff60833b15e49737c05e",
+      "scope": "Original/candidate model control",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E583",
+      "title": "mark3_S_C30分流字段溯源与普通首拍模型缺口_P583",
+      "private_report_filename": "mark3_S_C30分流字段溯源与普通首拍模型缺口_P583.md",
+      "SHA256": "df763adc7e6abd6d1c8d8f6e1c383cd204f212ee3f3197002ba6e56a63f82308",
+      "scope": "Original source/feedback",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E584",
+      "title": "mark3_实拍S_C30辅助差异与反向S测试片_P584",
+      "private_report_filename": "mark3_实拍S_C30辅助差异与反向S测试片_P584.md",
+      "SHA256": "e3583d914003d34aacf2dd7885a98ca48727ce764c43958ce18c9c782418e073",
+      "scope": "Controlled physical specimens",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E585",
+      "title": "mark3_Nrmap缺失反向实机定位与双线修复_P585",
+      "private_report_filename": "mark3_Nrmap缺失反向实机定位与双线修复_P585.md",
+      "SHA256": "b98fb770cd4b87ac9834aa9b457892e58b57b8aa1e791a40fe4f589873d42dfb",
+      "scope": "Controlled user causal feedback",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E586",
+      "title": "mark3_Nrmap测试NEF与历史补图失败差异复核_P586",
+      "private_report_filename": "mark3_Nrmap测试NEF与历史补图失败差异复核_P586.md",
+      "SHA256": "6f3d55cc279686188cb08e0e2f67bdd01c92d454baf66cc5d690ed2607b9526c",
+      "scope": "Historical controls comparison",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E587",
+      "title": "mark3_v35虚拟Nrmap集成与v37打包验证_P587",
+      "private_report_filename": "mark3_v35虚拟Nrmap集成与v37打包验证_P587.md",
+      "SHA256": "5c441163b20b176ded4aa51a4212990b9c767f5262ff67bde5935efc97889798",
+      "scope": "Production map/source/files",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E589",
+      "title": "mark2_QEMU冷菜单CUS复现与修复_P589",
+      "private_report_filename": "mark2_QEMU冷菜单CUS复现与修复_P589.md",
+      "SHA256": "bad1acfd74d59779898bf980a3f70873b7e4308dd60e61fecf507f8cbae98bd4",
+      "scope": "Exact v39 cold menu",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E590",
+      "title": "mark2_v14公开更新与Z8移植学习说明_P590",
+      "private_report_filename": "mark2_v14公开更新与Z8移植学习说明_P590.md",
+      "SHA256": "e5fc674ef96f12d7498405361de017e01028655f0da07aa4e83c88e0b6e4aa57",
+      "scope": "User feedback/public source",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E591",
+      "title": "mark3_v39版本标识5_60重打包_P591",
+      "private_report_filename": "mark3_v39版本标识5_60重打包_P591.md",
+      "SHA256": "8c97820a4add439aa19e0147dad1e2c8bc3cef0e461b2b59b5800e00303da6a1",
+      "scope": "Version-only exact delta",
+      "raw_outputs_and_firmware_not_distributed": true
+    },
+    {
+      "id": "E592",
+      "title": "mark3_旧v39升级5_60_QEMU原升级链验证_P592",
+      "private_report_filename": "mark3_旧v39升级5_60_QEMU原升级链验证_P592.md",
+      "SHA256": "886d3b8a012052b433df0f45085280b413fe10d943d3b3a81c76a51dd7e0e101",
+      "scope": "Original updater/synthetic NOR",
+      "raw_outputs_and_firmware_not_distributed": true
+    }
+  ],
+  "missing_lookup": [],
+  "provenance_note": "Private reports identified by title/hash; public conclusions are summarized in the research document, raw outputs remain private"
+}
