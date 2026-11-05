@@ -18,11 +18,11 @@
       "kind": "authored source/recipe/test/documentation or standard GPL license"
     },
     "NOTICE": {
-      "SHA256": "46dee04f4f8f4588d7ebd4ba505301ca51c532260b9798efc53126a7ed9411fc",
+      "SHA256": "511ee08fc79dad08a98649836b93f3b2f27e61ade6ea52d9cbe5368d5e85486a",
       "kind": "authored source/recipe/test/documentation or standard GPL license"
     },
     "README.md": {
-      "SHA256": "02822c5b04d46cf036a679907c08bcf0b927661b6f68385f296d1410f816fc6e",
+      "SHA256": "415cdbcef73fc4ce81e2528d5af49c026de405b0951ea302b499b6e7822146c2",
       "kind": "authored source/recipe/test/documentation or standard GPL license"
     },
     "docs/assets/screens/c15-c30-format.png": {
@@ -46,7 +46,7 @@
       "kind": "requested documentation image"
     },
     "docs/build-and-validation.md": {
-      "SHA256": "295c23ab5d8e9a1757cea4dca8b40b623988d4c93eeaa4ec6d4e0a563e464364",
+      "SHA256": "02f2f34a36e749b12d4985fc4917cd8e6cf27a1b36b8f30d3df2713b229cdf6a",
       "kind": "authored source/recipe/test/documentation or standard GPL license"
     },
     "docs/changes.zh-CN.md": {
@@ -64,6 +64,10 @@
     "docs/nef-research.zh-CN.md": {
       "SHA256": "e1585ac032690f9e75d8e324144dcdacc67e3a2edd64b7f41501726f36edf73e",
       "kind": "authored source/recipe/test/documentation or standard GPL license"
+    },
+    "docs/publication-boundary.zh-CN.md": {
+      "SHA256": "52742c3669eb48ad39aa26c17862dc49d173b3257a649a1da6f92ffb8f542cad",
+      "kind": "authored documentation"
     },
     "docs/v39-user-manual.zh-CN.md": {
       "SHA256": "10be92a995746d4cc23e9c9bdb96dcf678015281701684df1039b350b5585957",

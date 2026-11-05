@@ -2,9 +2,24 @@ Z9 mark3 newly authored source and documentation
 Copyright (C) 2026 s3lemming and contributors
 SPDX-License-Identifier: GPL-3.0-or-later
 
-Original Nikon firmware/resources/private format material are not included.
-Screenshots depict original Nikon UI for educational documentation; GPL does
-not claim ownership or relicense Nikon UI, fonts, trademarks or firmware.
+Original Nikon firmware modules, extracted resource files, decompiled vendor
+implementation and private format material are not included.
+
+Third-party visual content: docs/assets/screens/*.png and the screenshots
+reproduced in docs/v39-user-manual.zh-CN.pdf depict Nikon's camera UI.
+Rights remain with the respective rightsholders. Written permission for public
+republication has NOT been established. These images are retained at the
+publisher's express choice with this uncertainty disclosed. Educational purpose
+and attribution alone do not establish permission. The project's GPL does not
+grant rights to Nikon UI, fonts, trademarks or firmware.
+
+The PDF embeds subsets of the locally installed SimHei font (OS/2 fsType 0x0008,
+editable document embedding). No standalone font file is distributed. Document
+embedding is distinct from a general font redistribution license.
+
+Source-only distribution is not a legal clearance for firmware modification,
+reverse engineering or container reconstruction. Applicable licenses and local
+law require separate assessment. See docs/publication-boundary.zh-CN.md.
 This project is independent of Nikon. Upstream research revisions are cited
 in README and the evidence ledger; no vendor decompiled implementation is
 shipped. Integrated audio derives from the same author's mark2 project.
