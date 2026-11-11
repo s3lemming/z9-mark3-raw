@@ -1,0 +1,565 @@
+{
+  "schema": "z9-mark3-f2-recall-source-v1",
+  "target": "Z9 original5.32",
+  "original_module_SHA256": "979fc8c5a46b3be8a998d5defb8be916d766ef85428744ba0bc47a1cb0ba9a66",
+  "original_payload_SHA256": "6380ded18395ce11cb327c766721274c85127d2cf1a1e887ee60e3d156810bdd",
+  "expected_prefix_SHA256": "7ce971a64ff1dea4ae50cd9c74455a04b3df03aa8564cb03d04403062519ade2",
+  "expected_prefix_bytes": 81950648,
+  "code_bytes": 87122,
+  "patches": {
+    "0xa028d29c0": {
+      "bytes": 8,
+      "original_SHA256": "ac4a62c64e53d624c64da2251b1da6a1f1b672c6d3427cb9487cbefd9a67cb57",
+      "consumer": "Sound rows: five originals byte-identical plus Load WAV from card"
+    },
+    "0xa028d29c8": {
+      "bytes": 8,
+      "original_SHA256": "1aa6d014b85dac3c079dc52b9ac4d49990a661bd35aeb9783d689d0c8c7c9fe0",
+      "consumer": "26 original-compatible event bindings; 20 displayed files"
+    },
+    "0xa028d29d0": {
+      "bytes": 2,
+      "original_SHA256": "2921a11f25dadaa24aa79a548e4e81508c2e5e56af2d833d65e2bcce448ce2f5",
+      "consumer": "Initial six sound rows; scanned filenames published by native task"
+    },
+    "0xa028d29d8": {
+      "bytes": 2,
+      "original_SHA256": "f5e0da8d7a9a79e7141b9e674d0d70eefd2f5416fda74ef18c8665bfc3812a54",
+      "consumer": "Bound native scrolling list rectangle"
+    },
+    "0xa028d29e0": {
+      "bytes": 2,
+      "original_SHA256": "f5e0da8d7a9a79e7141b9e674d0d70eefd2f5416fda74ef18c8665bfc3812a54",
+      "consumer": "Bound native scrolling list rectangle"
+    },
+    "0x403e9664": {
+      "bytes": 4,
+      "original_SHA256": "266ccada80c62c4566b0086932c8209c7dea17c708a542af058211a59c1b2faf",
+      "consumer": "Extended label classifier; original entries unchanged"
+    },
+    "0x403e9668": {
+      "bytes": 4,
+      "original_SHA256": "c5fb4f118eba2ec3307bf239edadb2cb8ecec8d95ffe893d0ed576045bcbbce9",
+      "consumer": "Extended label classifier; original entries unchanged"
+    },
+    "0x403e966c": {
+      "bytes": 4,
+      "original_SHA256": "34557b79ade580121527e5688512187fe8cae2c2741e39b7a5db19e034196fa2",
+      "consumer": "Extended label classifier; original entries unchanged"
+    },
+    "0x403e9670": {
+      "bytes": 4,
+      "original_SHA256": "032912bb9895514ec0e97b1892a120f5ee4877ab2d606fc068ed786c891611f1",
+      "consumer": "Extended label classifier; original entries unchanged"
+    },
+    "0x40e355fc": {
+      "bytes": 4,
+      "original_SHA256": "f21c4859f334c7275ad8254b63d776511326f1f740e38e60984761f5aaa40cc1",
+      "consumer": "Integrated mark2 v13 api; displaced original instruction replayed"
+    },
+    "0x40d25dd0": {
+      "bytes": 4,
+      "original_SHA256": "588975373386a7f9991d3ec763307ba1f282d55ce57b06d82612848d6475266a",
+      "consumer": "Integrated mark2 v13 pcm; displaced original instruction replayed"
+    },
+    "0x40f9f758": {
+      "bytes": 4,
+      "original_SHA256": "015786eea4edfbe22a078e33ffcc9ef4da194118d87f375664a4230cf5b129b9",
+      "consumer": "Integrated mark2 v13 flags; displaced original instruction replayed"
+    },
+    "0x40f9ff2c": {
+      "bytes": 4,
+      "original_SHA256": "0ca758c5dfdf24442c1150301c7132309fa4ff0cfa1bb29a1b5a862a62b228cc",
+      "consumer": "Integrated mark2 v13 terminal; displaced original instruction replayed"
+    },
+    "0x40f9fdf0": {
+      "bytes": 4,
+      "original_SHA256": "a8cf9de02ae64a4744b2d75d64cf74b82e78c190ffe9051d17ea35adac2f5475",
+      "consumer": "Integrated mark2 v13 fast_timer; displaced original instruction replayed"
+    },
+    "0x40fa0130": {
+      "bytes": 4,
+      "original_SHA256": "04c7260347be3020f57edc5ebfc7e9a52757c67835b6da6772a1d5b3d6fa02b8",
+      "consumer": "Integrated mark2 v13 composite; displaced original instruction replayed"
+    },
+    "0x40fa0198": {
+      "bytes": 4,
+      "original_SHA256": "0eb6c23d1b7f156e126b1fd180e00e87f313433a910bd5bb73d781956e510bc1",
+      "consumer": "Integrated mark2 v13 cxx_stop; displaced original instruction replayed"
+    },
+    "0x40e395b0": {
+      "bytes": 4,
+      "original_SHA256": "a93af30ebe143808e29aa12a4c5abfd7c2d31eef1392bc0a4fc81a5683245e73",
+      "consumer": "Integrated mark2 v13 notice_sync_end; displaced original instruction replayed"
+    },
+    "0x40e39728": {
+      "bytes": 4,
+      "original_SHA256": "a93af30ebe143808e29aa12a4c5abfd7c2d31eef1392bc0a4fc81a5683245e73",
+      "consumer": "Integrated mark2 v13 notice_async_end; displaced original instruction replayed"
+    },
+    "0x431c1ff8": {
+      "bytes": 8,
+      "original_SHA256": "f865cc17f5b2781add47fabeba725e0f77c023e73974b444e89493a916f44474",
+      "consumer": "Native sound selection preserves five original choices and CUSTOM_SOUND picker"
+    },
+    "0x431c2018": {
+      "bytes": 8,
+      "original_SHA256": "f865cc17f5b2781add47fabeba725e0f77c023e73974b444e89493a916f44474",
+      "consumer": "Native sound selection preserves five original choices and CUSTOM_SOUND picker"
+    },
+    "0x431c20b8": {
+      "bytes": 8,
+      "original_SHA256": "f865cc17f5b2781add47fabeba725e0f77c023e73974b444e89493a916f44474",
+      "consumer": "Native sound selection preserves five original choices and CUSTOM_SOUND picker"
+    },
+    "0xa028f42a8": {
+      "bytes": 8,
+      "original_SHA256": "d7dd6fbf9d87aa3b62481185e5b9bbeb264ed54ff65a1724bf3b9b654bfa4f38",
+      "consumer": "P589 parent page entry restores confirmed custom sound and filename model before original405A54B4 values"
+    },
+    "0xa028f42d8": {
+      "bytes": 8,
+      "original_SHA256": "0c7cb44577a373f1374b4fe9ba6883ae6a1fc4d369ce4bf50763931a4a21075e",
+      "consumer": "Native sound refresh followed by selected custom filename"
+    },
+    "0x405a5584": {
+      "bytes": 4,
+      "original_SHA256": "dd2710420e667c7fbcbf4d541563d400596920978fc3b0b0bc69f5923b524fba",
+      "consumer": "Only outer sound Type label CUS; native enum preserved"
+    },
+    "0x431f6280": {
+      "bytes": 44,
+      "original_SHA256": "fe710547c1aa14a1e211cd22ea0e07444dad6a6c90e5ad4752916d4e4c093f30",
+      "consumer": "Image-quality HSFC parent keeps original label/UI/event row, pure submenu link with no4BEC right-value widget; private C15/C30 and C60/C120 rows publish separate committed summaries"
+    },
+    "0x403addc4": {
+      "bytes": 4,
+      "original_SHA256": "cc8f1d7a1c737c9fab66cc99d3435ee773dd2e18fe2dfc76a5aaa4c4bb826803",
+      "consumer": "Complete original public constructor wrapper retained"
+    },
+    "0x403d6618": {
+      "bytes": 4,
+      "original_SHA256": "af6aad34d0bec53ebd93d7c77cafed945f3a97f169f422b49318a49852b9dae3",
+      "consumer": "Exact slot2 private6C4/5 only, other original getter GPR/NZCV unchanged"
+    },
+    "0x4032e57c": {
+      "bytes": 4,
+      "original_SHA256": "ae8e423c7c80207cd28b31d60bf9af5606a0f1987322cc129a2e6b5ad2713d96",
+      "consumer": "C9C/C9D localized group headers only"
+    },
+    "0x40d6e5bc": {
+      "bytes": 4,
+      "original_SHA256": "91df1849d5d374b56799e89044143a90a73e590e77c51dde315ae461a5865e4b",
+      "consumer": "After original RTOS init, create one F owner; unchanged native load then owned accepted-bank private load"
+    },
+    "0x410161bc": {
+      "bytes": 4,
+      "original_SHA256": "0b1156d13c5b20d6ef92118ee40ff70499c54bf2144aea5b8ae28e300270bbe8",
+      "consumer": "Original native worker claims one fully published menu request schema; original F-client runs on native worker stack"
+    },
+    "0x40d469c0": {
+      "bytes": 4,
+      "original_SHA256": "eaff3c0dc5ea269a137c7971dad6c3c288092fda5327213d82085c95c6e5afe8",
+      "consumer": "Original condition7 fine byte, native C30/C15 modes3/6 only; complete instruction register/NZCV preservation, actual DQT binding pending"
+    },
+    "0x4105ed60": {
+      "bytes": 4,
+      "original_SHA256": "2c8cd4b156fb4bbff710e5b21cee8d8202675110636ff55e2985f4865c9b4443",
+      "consumer": "Actual39 observed native ImageInfo3D4 to M290 stores; Mkind3 and effective C15/C30 guards; every GPR/NZCV retained, no original6F10 change"
+    },
+    "0x40d74bf4": {
+      "bytes": 4,
+      "original_SHA256": "6f427803125664db5b7e62fcbcae77ed224e0f0c201ed6a942b1fd2f63d84ebf",
+      "consumer": "Complete core invocation owner, separate224B wrapper"
+    },
+    "0x40d74d38": {
+      "bytes": 4,
+      "original_SHA256": "710a042119619bab1ad989eaa57489336da941ae7500b0708844c555db6adbbf",
+      "consumer": "Private change forces native dirty gate"
+    },
+    "0x40d74dc4": {
+      "bytes": 4,
+      "original_SHA256": "88ba4864a23fae79416b203763abb8ff3b962f3b8dddb9915f5ad75c6a85b910",
+      "consumer": "Reserve88 tail bytes only in exact F domain"
+    },
+    "0x40d74f18": {
+      "bytes": 4,
+      "original_SHA256": "34c29534062afd33834cdaeee0ffeaad22d9ea1d8123138d62347742e0887bf9",
+      "consumer": "Private tail last commit, original non-domain footer replay"
+    },
+    "0x40ead244": {
+      "bytes": 12,
+      "original_SHA256": "10fd6938047e025ae1affcc4822a58d99b81c877e3ac4a9ac861443ce714709a",
+      "consumer": "Retain E only for admitted committed RAW setting"
+    },
+    "0x40eb5898": {
+      "bytes": 4,
+      "original_SHA256": "64677dea8a8579b40558587acd31cff3a1bb8346bd13411a71c5ddbb904b9fd3",
+      "consumer": "Original JPEG compose then private native NEF"
+    },
+    "0x40ea7718": {
+      "bytes": 4,
+      "original_SHA256": "97bb03d535ff1f36cde34b0c02d132e41c9f16c59f4fef70d97b86a6ffdac9ec",
+      "consumer": "Admitted RAW-only or RAW+JPEG writer; native JPEG fallback is reported as RAW failure"
+    },
+    "0x406ca4f8": {
+      "bytes": 4,
+      "original_SHA256": "0a2ef70a7601a9cea6269032fd4883f84ee5678d5f299576bf542cd8a1855088",
+      "consumer": "Only original photo-completion event2 at RAW-only owned WRITING job is deferred until successful commit and JPEG reservation cancellation; original payload and dispatcher/guards preserved"
+    },
+    "0x4105387c": {
+      "bytes": 4,
+      "original_SHA256": "05c8d41a46a4093646e6ef956f62db7afff5d6996d07dafd6db4fd07eff9717d",
+      "consumer": "Original E free observer and generation cleanup"
+    },
+    "0x4105f564": {
+      "bytes": 4,
+      "original_SHA256": "af6aad34d0bec53ebd93d7c77cafed945f3a97f169f422b49318a49852b9dae3",
+      "consumer": "Existing C15/C30 DX native HE geometry mapping"
+    },
+    "0x41066428": {
+      "bytes": 4,
+      "original_SHA256": "ad6480d4cfd6ca8855ee29a9cfc4fa32ad8cc4ac44b44241fa99f4b8c92a4f7e",
+      "consumer": "Scoped C15/C30 RAW auxiliary8 original initializer; original fallback and all registers/NZCV preserved"
+    },
+    "0x40eb2c48": {
+      "bytes": 4,
+      "original_SHA256": "33fed37b30517aeec754863a31016ac367fb2934fe6489976294ccc3da654bbc",
+      "consumer": "RAW-only original NEF preview RC; RAW+JPEG/JPEG fine-normal unchanged"
+    },
+    "0x40e9d894": {
+      "bytes": 4,
+      "original_SHA256": "faf9871f3c26b8525fe96fc4fa171d73a7e4129038774afb8771074c6288ea76",
+      "consumer": "Original Tenc config first; committed HE-star in guarded FX/DX C15/C30 image-info contract"
+    },
+    "0x40e910b4": {
+      "bytes": 4,
+      "original_SHA256": "d3f5b01373d34bfbed840b0e4588f1cdd5e8c05f17098731a4efd08f752d25c7",
+      "consumer": "Second original Tenc initializer uses the same guarded HE-star bridge"
+    },
+    "0x41053834": {
+      "bytes": 4,
+      "original_SHA256": "a6e10cb4821e7202fbbc246578f218549ef639f1864fff72f5454eebd33fa222",
+      "consumer": "Exact E factory original HE request/pool39/FX or DX image-info scope changes to matching HE-star allocation"
+    },
+    "0x40e9d8c4": {
+      "bytes": 4,
+      "original_SHA256": "b72375d28826474ad15f4fb0f73dc6c739925c8edee0eef06e6dd622f737804e",
+      "consumer": "Native E size accounting follows selected HE-star; original non-HE request sizes unchanged"
+    },
+    "0x40f9c054": {
+      "bytes": 4,
+      "original_SHA256": "2c931a6dc4aa57760b20983949c09aa7ddac0a16b2052b1ed1e81e0a7d11a9f9",
+      "consumer": "Native E size accounting follows selected HE-star; original non-HE request sizes unchanged"
+    },
+    "0x40f9d248": {
+      "bytes": 4,
+      "original_SHA256": "daf5c0c6c36a592dcab0d77a1470ac24cbe6ec6e7adc8c0e47398f552e0b2236",
+      "consumer": "Native E size accounting follows selected HE-star; original non-HE request sizes unchanged"
+    },
+    "0x40ead130": {
+      "bytes": 4,
+      "original_SHA256": "68e74820fb5e9a4c292a0cfd1a93d3e55444158ac1e9fc16e6b5ad142c5e2856",
+      "consumer": "Packet-qualified HE-star decoder; all other GPR/NZCV preserved"
+    },
+    "0x40f9c754": {
+      "bytes": 4,
+      "original_SHA256": "67d957267b06d116296ca290e0593f68fcdc4167ee1204a9df5bd97ce02b63df",
+      "consumer": "Original buffer publication unchanged first; enqueue GUI24 when native adjusted availability changes"
+    },
+    "0x403e74a8": {
+      "bytes": 4,
+      "original_SHA256": "77ec6d2e247be8d686916953a397b392aee8096eea54829a8033fa69800ea2f3",
+      "consumer": "Original property getter target first; only02006401 enum3 becomes effective2 in committed RAW-bearing C30 FX HE-star, all other properties/modes/settings preserve native value"
+    },
+    "0xa028f1790": {
+      "bytes": 8,
+      "original_SHA256": "33ee1a8b446dbfcd29b06d3a59554266bec6e562aff849e5ec9bf538e751b162",
+      "consumer": "Exact original pre-duration state18F refresh: native mark/focus using effective getter, disable1s row35BE only for C30 FX HE-star and reenable on scope exit"
+    },
+    "0x40f992b0": {
+      "bytes": 4,
+      "original_SHA256": "69627a1f66d888ab099fa9f691414716509829cf7bb7373bd7ba775dd340fe89",
+      "consumer": "Bound same effective pre-duration by applied C30/FX/RAW/HE-star before complete original per-mode frame conversion; no native buffer guard or pool changes"
+    },
+    "0x41017ed0": {
+      "bytes": 4,
+      "original_SHA256": "5bb31ae6c1cccb8c9c9cb7dd2ac0930bf6a27c9c942cab2c5498986f1e684c23",
+      "consumer": "Complete original queued ID/value publication first and preserve return; original07000603 area batch in C30 HE-star RAW requests original6401 recompute after queue unlock, no derived-cache/persistent/reserve mutation"
+    },
+    "0xa02965090": {
+      "bytes": 8,
+      "original_SHA256": "5ac101ce3c5d6a3b2af54696305e2afb8e066ca4392fd50c06ee52e149140e37",
+      "consumer": "Exact native GUI record callback only; scoped private quality, original fallback, native bounded refresh"
+    },
+    "0xa02967450": {
+      "bytes": 8,
+      "original_SHA256": "46ea007aa0417b6b8036102139748f315b782ee64ea43518951f682e07563c20",
+      "consumer": "Exact native GUI record callback only; scoped private quality, original fallback, native bounded refresh"
+    },
+    "0xa029674b8": {
+      "bytes": 8,
+      "original_SHA256": "46ea007aa0417b6b8036102139748f315b782ee64ea43518951f682e07563c20",
+      "consumer": "Exact native GUI record callback only; scoped private quality, original fallback, native bounded refresh"
+    },
+    "0xa029675f0": {
+      "bytes": 8,
+      "original_SHA256": "10e77bf3218788a91a664eaee4adcb9e42ceafc23f01767f66cc4fbff02b25c5",
+      "consumer": "Exact native GUI record callback only; scoped private quality, original fallback, native bounded refresh"
+    },
+    "0xa02966c98": {
+      "bytes": 8,
+      "original_SHA256": "9fd7061abec2620e2233e29647f49423f1d0e71d56f3a6808b79c14002d3ae9a",
+      "consumer": "Exact native GUI record callback only; scoped private quality, original fallback, native bounded refresh"
+    },
+    "0xa02967b38": {
+      "bytes": 8,
+      "original_SHA256": "9fd7061abec2620e2233e29647f49423f1d0e71d56f3a6808b79c14002d3ae9a",
+      "consumer": "Exact native GUI record callback only; scoped private quality, original fallback, native bounded refresh"
+    },
+    "0xa02967ba0": {
+      "bytes": 8,
+      "original_SHA256": "9fd7061abec2620e2233e29647f49423f1d0e71d56f3a6808b79c14002d3ae9a",
+      "consumer": "Exact native GUI record callback only; scoped private quality, original fallback, native bounded refresh"
+    },
+    "0xa02ac5010": {
+      "bytes": 32,
+      "original_SHA256": "3db1a869e21e9252e00a1468de8670c592fb179520fbbe399c5684a86aff2032",
+      "consumer": "Explicit authored RX mapping"
+    },
+    "0xa02ac50e0": {
+      "bytes": 8,
+      "original_SHA256": "c51be4780447d84110bdb2673724cf29080cb0154f4d2a9d8a1350ff7269f2f2",
+      "consumer": "Original resource RO upper boundary"
+    },
+    "0x401680e8": {
+      "bytes": 8,
+      "original_SHA256": "018e1d476ae36910b5415f0d87430aa324d9baea2c59cd125cc8123cad02d5f7",
+      "consumer": "Startup-zeroed D frame plus bounded D+C00 settings/E UI; native extra guard page included, TTBR0 unchanged"
+    },
+    "0xa028c2980": {
+      "bytes": 8,
+      "original_SHA256": "f8eb243cf11933cad3beb10e54cf9e69a25aafc84b32f1ef516f5e3cde9114d0",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028c2988": {
+      "bytes": 8,
+      "original_SHA256": "e8ff69637330affa02f1a6617e595c875957035a9d1953ad519b2f25a611469c",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028c2990": {
+      "bytes": 2,
+      "original_SHA256": "f566cc6fccc657365c0197accf3a7d6f80f85209ff666ff774f4dcbc524aa842",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028f1fd8": {
+      "bytes": 8,
+      "original_SHA256": "1d2173f53e4d840a80b0edf9e4dcf86c2db94cca19221f428d7258a3870714e9",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028f1ff8": {
+      "bytes": 8,
+      "original_SHA256": "7ef79986474cddf6b17accd7b966123376649746dcbebedf7fe32636359ee8f7",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028c2e80": {
+      "bytes": 8,
+      "original_SHA256": "576142d9e4b5c300b370d6f0fcbd46ad99a5923608eb4ba9e7fef7e1443ed303",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028c2e88": {
+      "bytes": 8,
+      "original_SHA256": "9bd2c8ad69ef2de0d80418a183cd99eaaab005c5de64b999adff61838825990a",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028c2e90": {
+      "bytes": 2,
+      "original_SHA256": "9b4fb24edd6d1d8830e272398263cdbf026b97392cc35387b991dc0248a628f9",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028f2258": {
+      "bytes": 8,
+      "original_SHA256": "8e04b855ab37a5c19a71974a7f5507560fa15617870c582e66d08e0265e38e4b",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0x41019238": {
+      "bytes": 4,
+      "original_SHA256": "27c12c6544eba19ad9b36abaf4b3398b24a1986fb981ef8a883b1d8299837737",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0x40ed2758": {
+      "bytes": 4,
+      "original_SHA256": "015786eea4edfbe22a078e33ffcc9ef4da194118d87f375664a4230cf5b129b9",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0x40ed2848": {
+      "bytes": 4,
+      "original_SHA256": "d6e51b48cc27c9bf4e0db8cf5083fd9db3f3e9248483553c19c212bdd633e81a",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0x410dc734": {
+      "bytes": 4,
+      "original_SHA256": "8cc22ea580e3ded6b65d7495b2bea8dde41011cfb7930501406a0d44df163ce1",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0x410dc760": {
+      "bytes": 4,
+      "original_SHA256": "a4fa22655f0342929e7d468d6fc21faf76fac1951e4dbddf592fdc04767489b6",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028c2ed8": {
+      "bytes": 8,
+      "original_SHA256": "106c7c8a65eeae58190e92cf944210b5525b447c13b4cd1f70b9017cf0ad9e6d",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0xa028c2f28": {
+      "bytes": 8,
+      "original_SHA256": "ef0ead2ac48b1183e0fe90c6f925c070dccd255a6ae86edfa1c52379145253c8",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0x4050ce44": {
+      "bytes": 4,
+      "original_SHA256": "1601c5bdc861c4645a941f2dd6783b1fc903abe3ac415ac4b4d273d3d41105a3",
+      "consumer": "P598 native recall menu/overlay integration"
+    },
+    "0x40ed81bc": {
+      "bytes": 4,
+      "original_SHA256": "1d29aad6de001cac9bf78d05b5c87f8c493b5714dbb9eba30f847c39ca34d122",
+      "consumer": "P682 extend admitted original Quick submode targets3/6; all original guards and fallback retained"
+    },
+    "0x40ed81f4": {
+      "bytes": 4,
+      "original_SHA256": "68e0cc6b7a04abbe910c06537e539faa89e89414d655b6b95ddd4128632f902b",
+      "consumer": "P682 extend admitted original Quick submode targets3/6; all original guards and fallback retained"
+    }
+  },
+  "versions": {
+    "5.32": {
+      "MAIN_SHA256": "5e97f9e0aede7b05bd2932533efd992332de155a4bfc9280faa6f19e04ec0981"
+    },
+    "5.60": {
+      "MAIN_SHA256": "251480ddcc4004d8a9f208faadf755a524ea46533f22e0cd2a5dd153a9f1ea7e"
+    },
+    "5.61": {
+      "MAIN_SHA256": "2234ed4905dbe875cdba1269d91b61e6a53585a4088463dd0d8e6cc419b04670"
+    }
+  },
+  "sources": {
+    "firmware/format_policy.c": "20c70d4c3fda25cbaa0668ea4647098730d892471dc026396bdcdbdb5db0dc83",
+    "firmware/format_policy.h": "95e811b9837c8fbfaf47dc2ae457dcb35966035b7a544851650197d645971a69",
+    "firmware/hsfc_geometry_mode.c": "0e969be381e9cc976608a0f324e3f56e5861e8f56b84b4af3b1a46bf45ff5037",
+    "firmware/hsfc_geometry_mode.h": "c6771260da75bbcf195f0dbe9d0dd75790998caeea7985722faa888b9a687a2d",
+    "firmware/hsfc_settings_record.c": "03702e406f0ec869dfcc2306e44d9abf68e565d090ee56888fa50bfa943f7e54",
+    "firmware/hsfc_settings_record.h": "bddac86ab60240bb18f47bc601931de8fa0e916024f548568568220951373fe0",
+    "firmware/hsfc_settings_tail.c": "e6c72e2cd62148f0176996110ff57a67f467d67647b1551790a43bec273c7376",
+    "firmware/hsfc_settings_tail.h": "c42935ca99f5be5a566d3f7b6eef27b219b9753503685356169edbe9ee3b3a44",
+    "firmware/mark1_entry.S": "2f7db991cacc79d001b9bd24a22f8b19fe0685c7acf1c02371bc2a03a2010139",
+    "firmware/mark1_labels.S": "e03ae5bbf000a62c27cef628bb08de669b756d95f6792991da63dde373766c1d",
+    "firmware/mark1_toggle.c": "173c70e88005df85ecf592bfe4baa5f0ecab7d084cdbdca90458adacb6b8d79c",
+    "firmware/mark2_audio_runtime.c": "ab2af8e147c6a3ef12c66f0ae4dc2122de47ff196b0e2f35890d61bddf556520",
+    "firmware/mark2_audio_runtime.h": "43ed3d447dbbdf5af89495c365c90c8804b47291d3f40ec9e4d4087a3de4e3e8",
+    "firmware/native_auxiliary_entry_probe.h": "a9046bff9306c7f88808e01e7e227e53ae45466bda342517244ad119f397ec67",
+    "firmware/native_auxiliary_gate.c": "634eddfe9d5124339813e018165ac260ed0b94264327495014f864cce48626ce",
+    "firmware/native_auxiliary_gate.h": "dc5f7aed3631ac9ff82dfee654da7d1504617c7872aa0cdfd8d1f5cafc9dfe79",
+    "firmware/native_auxiliary_gate.S": "0f0e4a715b757b763b1661289fecf6c9ee1b7df46af1726b96241cc352fc5937",
+    "firmware/native_buffer_publish.c": "94eb970d95001d0d270a0f7f41e4f27ee4a65b55e582d8ebf5945add0b43a176",
+    "firmware/native_burst_reference.h": "fe0838a10c68656d96c97e9d7980834ecf1b0f2df411722318e8bb9634811917",
+    "firmware/native_codec_geometry.h": "7babc9e6b9f788b203570334f18de41b16a8c9ffd2f00b13f0520b647578ade3",
+    "firmware/native_codec_live.c": "c1628815cc8e11322e1b78eac5229770aa028660d5f07f1f8569c2d3a1dc1dc3",
+    "firmware/native_frame_grade.c": "331ed3442fdd137a5a8f34ab728b4aaa3d12226bd5820cbb7e303374168a5284",
+    "firmware/native_frame_grade.h": "b75d780e6cd948e100554923282349dceae04c68639f836104de729210eef013",
+    "firmware/native_frame_grade.S": "2d3e9700ff5902f324d4d2527f7e5e0c5a457475229428d9612a0c2931d94f5e",
+    "firmware/native_gate.c": "423d8566a48f717dea81ad2318694b9881560d54fb294ab9c6ccb1055caa10ae",
+    "firmware/native_gate.h": "529d47a38a8d7eeb919707de5946e8a99689c2b9b127ccf99a6d2f9a238a01bc",
+    "firmware/native_he_backend.c": "571e74acd5111f346ea91d4321592c79b8e79d98dcf6475df8728f60c6829dc5",
+    "firmware/native_he_menu.c": "aded65e37da77c82e0918df3a9b645e0c6e7956983f1054edba882f8675a46a5",
+    "firmware/native_he_menu.h": "283bd5bfd3bf5cba170798fec86da13da4d73d1ca6bbd71c33d2e9a330af4d38",
+    "firmware/native_he_menu.S": "a422eda14f415899938d6377dd7b560a968dea64d5bfe5c04e1b8dcbc88e6a30",
+    "firmware/native_hud_publish.c": "7e345c407294fb0fb66aa21398996a2b69bab63e5d323a30aa6065d069478187",
+    "firmware/native_hud_publish.h": "42959d77d6fc088c96c573c2e0d68134ceab9f21c6c8adf89cb993c69526a44f",
+    "firmware/native_hud_quality.c": "a887c1840ffaa78201ef9c9411da7fffd59f31280f92d250a5a19099cc0b7a37",
+    "firmware/native_hud_quality.h": "3a728cd35f9571f92820a489902cf6b01251f41db694dfbb8f78fd3b8304ec0b",
+    "firmware/native_hud_remaining.c": "12ab0982d3a96d0a1a0bd92753005cf40e391cc00d4e8e570ad94dedf4060b35",
+    "firmware/native_hud_remaining.h": "1a79d940ae81ec4b14ae8cfa94ef799f44d41c426961d47ad19ce49c8ddcc679",
+    "firmware/native_live_bootstrap.S": "e3928475973d118984ee3c620cd16ea3299f8fd0f7cfb93e0f1513d8d6ac8d0c",
+    "firmware/native_live_settings.c": "4a0db752337a075f6f4824a4a1c93e5d06d3c90d0eebf73594fed229b1cf834a",
+    "firmware/native_live_settings.h": "e8a5554d5c84a4ef506395c261ae7420bc0d5af3d458b8d166ce091669a20ba3",
+    "firmware/native_menu_callbacks.c": "dfb941d535748470056276038d88948e9a1d957d78ee5409898215be9f59ac12",
+    "firmware/native_menu_callbacks.h": "b66cab95c5840da91c4300fb535a6db8f954d37632ee87305970c11614d3e2b7",
+    "firmware/native_menu_labels.c": "79b461338aab0b4b38a39d88bdfd2cf1d20a6afe043e7697bbfc9799c1f5defb",
+    "firmware/native_menu_labels.h": "aa48e42dd6c71c0334cadc16f976292bd65e0320fa3a6d28bedd006f238a69c2",
+    "firmware/native_menu_pages.c": "b7629e551d7b08d8c58b5b08daff9a1045d64f19bbf8c962ff8f9e0aadf0d459",
+    "firmware/native_menu_pages.h": "d1c29111de3e2a708569a0b22c0093328d0627d51ae6fbf8c8948abe5837202c",
+    "firmware/native_menu_router.c": "e94527148d91d43290897216971e7a0e3acf27ec10c063c8b88879bfa883ad28",
+    "firmware/native_menu_router.h": "d155a4b94fde9ba282f63d255106028e8509b091596b765e2f5ee06db454a3a0",
+    "firmware/native_precapture_limit.c": "1c82bdb603f53d2f31d825f14ed7889432e40c2b11671589d8f351f1f4e5f4aa",
+    "firmware/native_precapture_limit.h": "c382aa3d1f74253ad9db72c5618a35c55581764e980afd206966c22e49a8f08c",
+    "firmware/native_preview_policy.c": "cd93ae71a74ef88dfc0ac114e1c6089789f665c10b977d7e2f39e790190e2d3b",
+    "firmware/native_preview_policy.h": "6ac5d60ea0cac4b61611873a4623863412839117df9e93a6b27281d083ef2f9a",
+    "firmware/native_runtime_layout.h": "366c19c50f742038d76175a22360819f948a608bf7640ed2d8e8035aa448cf53",
+    "firmware/native_settings_abi.h": "d97984d396c0d79e308a142afc4d4bed3e0c7b32b6fbd0ec1fba369b696725d0",
+    "firmware/native_settings_bank.c": "e4c47578f2baf899f67d6ecec3dcad5014995c58f8f41710c1fd3d67bab1ae96",
+    "firmware/native_settings_bank.h": "f1eb2143283c2eb892cc90ce7dae9ba03cfff9450ce40866089e5c788c88b68b",
+    "firmware/native_settings_context.c": "0a068fda0d56e861021c4abae68d7609da036930b77475761cba7617f18348a6",
+    "firmware/native_settings_context.h": "b44618f7559efa1c8f9e238f08a5f5ce7eb46ab2ebe25b84d841a59b466f633b",
+    "firmware/native_settings_context_abi.h": "4c62f8f9ca95b3c63188f4d9d14270be95160d1301a4a072d263209be798a900",
+    "firmware/native_settings_load.c": "6169540e7f722f797047fd3f0ac58a443d3bc841da378107a544169e640b3f1e",
+    "firmware/native_settings_load.h": "2ae42f9ca9ca642ec8a00f66581be91178ae72e8cf2222830cce02285b20201d",
+    "firmware/native_settings_nor.c": "a4f7236810418aff474c903272e202127ab49838ae4adb1a44210f916625ea3f",
+    "firmware/native_settings_nor.h": "85ecfbc24e2025b85068fdd3753c3087f6e4572a7045494af3adc13f5d192c70",
+    "firmware/native_settings_save.c": "dd6a22d942d39825eb4cac49f66f273bf44cc40ddf3feb0457ab48eebb1a112f",
+    "firmware/native_settings_save.h": "1c36d97424fa170631da20deb2c71c20b365195b90e2f53ca069324991532eee",
+    "firmware/native_settings_save.S": "815db848a1b86e3c379483935f459f2d57785183fe8937d279513d12412534ba",
+    "firmware/native_settings_verify.c": "a6f180bc528792a0d2f62f1873a0390f19db285626d006bf429f06fc049a4f11",
+    "firmware/native_settings_verify.h": "f44450f86b009b5526dbf46aabb89e51f9f632702fa68755c3e1147628c1e72d",
+    "firmware/native_settings_view.c": "61590b89c06aa2bc81020a66f3be3137ebaee318010d862a3aa65502e0f2772b",
+    "firmware/native_settings_view.h": "1f174037b304442113efe7fb425fde133724ccd007d77126f00a2766f9b96c8a",
+    "firmware/native_shotinfo_axis25.c": "0488c538b1f41c03d3f583f94a107ff5e877964fd940be5651e7dea6a458b813",
+    "firmware/native_shotinfo_axis25.h": "019fa8c4887f69db9773591a5b95e74fa72baf7c0a7e62a94d17f47ca16b8c1e",
+    "firmware/native_shotinfo_bank12.c": "1b390d4e4b919f50438c7e3a53db58aaa6c4c5ed4f5b29e020a52a33165bf61e",
+    "firmware/native_shotinfo_bank12.h": "87de14e31cf36ea1e8bcac0099b9ce33d3fe482b60e9874ce58e385258d89b07",
+    "firmware/native_shotinfo_bank_snapshot.c": "e8fcf320581446947d21813b119c44da078cabf3fdad7f46e4c2b7d903de71b0",
+    "firmware/native_shotinfo_bank_snapshot.h": "f422b9dc85a056408ccf35d5ce56b8725c073f85904c3c548447a407a93ba654",
+    "firmware/native_shotinfo_battery.c": "fed415b4918b16ce8bc5f013ee6f52788f4bceb717eb24e3139ef1ddbf9e09b6",
+    "firmware/native_shotinfo_battery.h": "55db8a78c39873c51ebf9fad01a0183e73a727325bbd5e36772c6949a42c5653",
+    "firmware/native_shotinfo_group1723.c": "71f7a06aa67082ad882079abf7d83e002bc58365f1b9d57b444f1828a41b0576",
+    "firmware/native_shotinfo_group1723.h": "4fcd74f4426573ea617f61c196fbe573e98911b126b17d04a8b41bd8c641d412",
+    "firmware/native_shotinfo_group1820.c": "373590f07b0bb36342486fb39a9a9d0b19f6aaf4ddfb2b99fe8d32f22124ecd0",
+    "firmware/native_shotinfo_group1820.h": "4bd6ffbf29e8811aee0faa78ac0370771d7d33b666fd8c9a325bf41e5ac7b105",
+    "firmware/native_shotinfo_section15.c": "9abfbc07c12cbbe2fe5365092548341a9dea6555dde2c27ec56419fa7a4f21c6",
+    "firmware/native_shotinfo_section15.h": "c6a0f4dfd1b5dc930ea1a39cd62734add90ae66b732ace36d954cc32d4928847",
+    "firmware/native_shotinfo_service1723.c": "da37ebaa23d0cc6ba7a0a5672340409603bc9d833f9f9f79cdd85017e3992057",
+    "firmware/native_virtual_nrmap.c": "4683a7ea41a6f0a699304fe11d0e0cf83e3ec92895b5cebf11c40c5ab314a8d4",
+    "firmware/native_virtual_nrmap.h": "8860bb1b0e643567e7e0578b67e3dd130ab0100adeb73f897710e485c8ce3963",
+    "firmware/recall_field_codec.c": "634c635545ecb71f908bd532d7b2ae2869c3dee5cade2acb7449d5251d80211f",
+    "firmware/recall_field_codec.h": "cb3af69ffeabb70d8e704d99d28bda8f6c6aa9fea2f40dc157b48c1927047dbd",
+    "firmware/recall_native.c": "e0c012eefe2b43de7c37e8e27a944543cbddbdb9c47eb5e9e8aaf9c02d744c44",
+    "firmware/recall_native.h": "ddba35ebb363d928c31d6969f044ba16085fe0276e4a54c7fa6a46d7414caeeb",
+    "firmware/recall_native.S": "79acdad721e79edbec3d1278c7b6c388753ebfd5cc2b068ca251a06f25f0417c",
+    "firmware/recall_quick.S": "c028e2f829861dc74519238099f7b17bcc6c749c7469b06bdcefb208d1975031",
+    "firmware/recall_value_overlay.c": "3a934cfde3d6ee8b8023bd60e50572e9165504cc886e6bd7b8583ee6750c0ab4",
+    "firmware/recall_value_overlay.h": "e1457c6e3a29ed753d64bf7930eac186659d2cdbfe4228e7f8e34d36a257b3df",
+    "firmware/stock_nef_job.c": "381f8bf56f08d7c95a876accdcce1fb3162970b5efd9d5f7a0eb3f6a5a289bb4",
+    "firmware/stock_nef_job.h": "48322a9b8f1a2e7ed72841de802667646e4604288037c804a3038be855dd6c11",
+    "tools/audio-symbols.json": "196b1353d7887c9735d28bb88a47bc5149bcbfec581a524f4c17d8a0a9789d3a",
+    "tools/authored-labels.json": "46fb294ed29e1467945b52bee1c290b2c660b5ddc370ad0267f8c4ffd4f0fcc9",
+    "tools/backend_hooks.S": "ac2106dce22abf6323ef5905ba65e82c43cf0d08e8d84c968d6fce33f1ec78b6",
+    "tools/build.py": "38e5f8600f538c75b150662a182231d6b1b47c495ce64c258bd481d005da1336",
+    "tools/generate_audio.py": "d9af42846201b5b2682409b3afe97c2e747c9bb2a0cc4fbbaea5e0032609b7a6",
+    "tools/integrate_mark1.py": "f979ebfc1997ed1a117f724e6db5e8b2e56bd411532f097d6a38f2a634b32820",
+    "tools/mark1-menu-recipe.json": "ad85e88ad176dcd12e6720fb0816a1fd13887e1cbc4503b389f4a7dea87af9d7",
+    "tools/recall_menu_patch.py": "cc5259ab22be9f540fb93eeadcf3b3cb97a4be3d69e90352b43301e423cbbfee",
+    "tools/template-recipe.json": "768c8ebe2ca5df1cca10cf070e0df40c563ea4e577023a75545828056a29dc81",
+    "firmware/mark2_audio/adapter.c": "79e1d9c0542e80fd7dbc4f7b244b699cab20c8007c06e8660a1d97bbb406a3da",
+    "firmware/mark2_audio/mark2_import.c": "335531920a498b57484652c3365df3e44b522c7e9b4c10ef6f097a6575a8dba1",
+    "firmware/mark2_audio/mark2_import.h": "8823e23ce2066a205b9e3867c450f48db4f22574c76a8ca1e059dcc1d159371f",
+    "firmware/mark2_audio/mark2_native_file.c": "2f7bc114255785ed51912863997ba263179b48fa9335b84765e793ee05b583d1",
+    "firmware/mark2_audio/picker.c": "cbfd35f4f47e088d30884bd6ec8ec15590e7560eebbf304e4c6827b7ce631b20",
+    "firmware/mark2_audio/profile.c": "ff3d503c5fa860f10e890b7705449bcf9cc1f26f23e395a52b24ee24d8ba9cc2",
+    "firmware/mark2_audio/profile.h": "94ff7ad9617e1505fc74cf9e9d988947b71a51e8f368e01e72a681c880bcfb63",
+    "firmware/mark2_audio/profile_native.c": "e64ce0c8b3a3c61152a7faf8e23c4483781dc6f78594f11379f8542c9d351123",
+    "firmware/mark2_audio/runtime.c": "38a49a22201ed5a2e2b78f6963a76a2aa1075521acb1a780886e7b4aeaf5fa77"
+  },
+  "candidate_scope": "Opt-in f2 recall menu integration; bounded QEMU evidence, hardware acceptance pending",
+  "P598_status": "prototype; inherited expected_prefix is a v39 reference until independently checked new build"
+}

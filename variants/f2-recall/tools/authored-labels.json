@@ -1,0 +1,8 @@
+{
+  "text_en_help": "Planned: press once to turn VR off.\nPress again to restore Normal or Sport.\nPrototype: setting acceptance only.   ",
+  "text_en_title": "Toggle VR (prototype)",
+  "text_sc_help": "按一次关闭减震。\n再次按下恢复先前标准或运动模式。\n原型仅验证设置提交。 ",
+  "text_sc_title": "切换减震（原型）",
+  "text_tc_help": "按一次關閉減震。\n再次按下恢復先前標準或運動模式。\n原型僅驗證設定提交。 ",
+  "text_tc_title": "切換減震（原型）"
+}

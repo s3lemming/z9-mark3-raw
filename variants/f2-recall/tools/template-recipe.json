@@ -1,0 +1,259 @@
+{
+  "menu_chunks": [
+    {
+      "offset": 79636848,
+      "bytes": 96
+    },
+    {
+      "offset": 79637040,
+      "bytes": 96
+    },
+    {
+      "offset": 79467744,
+      "bytes": 80
+    },
+    {
+      "offset": 79467904,
+      "bytes": 80
+    },
+    {
+      "offset": 79573376,
+      "bytes": 40
+    },
+    {
+      "offset": 79573456,
+      "bytes": 40
+    },
+    {
+      "offset": 50946644,
+      "bytes": 44
+    },
+    {
+      "offset": 50946688,
+      "bytes": 44
+    },
+    {
+      "offset": 50948212,
+      "bytes": 44
+    },
+    {
+      "offset": 50948256,
+      "bytes": 44
+    },
+    {
+      "offset": 47481672,
+      "bytes": 32
+    },
+    {
+      "offset": 47440904,
+      "bytes": 32
+    },
+    {
+      "offset": 51293032,
+      "bytes": 32
+    },
+    {
+      "offset": 51293064,
+      "bytes": 32
+    },
+    {
+      "offset": 47500200,
+      "bytes": 32
+    },
+    {
+      "offset": 51293128,
+      "bytes": 32
+    },
+    {
+      "offset": 51293160,
+      "bytes": 32
+    },
+    {
+      "offset": 51293192,
+      "bytes": 32
+    },
+    {
+      "offset": 51293224,
+      "bytes": 32
+    },
+    {
+      "offset": 51293256,
+      "bytes": 32
+    },
+    {
+      "offset": 47500360,
+      "bytes": 32
+    },
+    {
+      "offset": 51293320,
+      "bytes": 32
+    },
+    {
+      "offset": 47482056,
+      "bytes": 32
+    },
+    {
+      "offset": 51293384,
+      "bytes": 32
+    },
+    {
+      "offset": 47481448,
+      "bytes": 32
+    },
+    {
+      "offset": 32110424,
+      "bytes": 32
+    },
+    {
+      "offset": 47481672,
+      "bytes": 32
+    },
+    {
+      "offset": 47440904,
+      "bytes": 32
+    },
+    {
+      "offset": 51293032,
+      "bytes": 32
+    },
+    {
+      "offset": 51293064,
+      "bytes": 32
+    },
+    {
+      "offset": 47500200,
+      "bytes": 32
+    },
+    {
+      "offset": 51293640,
+      "bytes": 32
+    },
+    {
+      "offset": 51293672,
+      "bytes": 32
+    },
+    {
+      "offset": 51293192,
+      "bytes": 32
+    },
+    {
+      "offset": 51293224,
+      "bytes": 32
+    },
+    {
+      "offset": 51293768,
+      "bytes": 32
+    },
+    {
+      "offset": 47500360,
+      "bytes": 32
+    },
+    {
+      "offset": 51293832,
+      "bytes": 32
+    },
+    {
+      "offset": 47482056,
+      "bytes": 32
+    },
+    {
+      "offset": 51293384,
+      "bytes": 32
+    },
+    {
+      "offset": 47481448,
+      "bytes": 32
+    },
+    {
+      "offset": 32110424,
+      "bytes": 32
+    },
+    {
+      "offset": 47481672,
+      "bytes": 32
+    },
+    {
+      "offset": 47440904,
+      "bytes": 32
+    },
+    {
+      "offset": 47440936,
+      "bytes": 32
+    },
+    {
+      "offset": 47440968,
+      "bytes": 32
+    },
+    {
+      "offset": 47500200,
+      "bytes": 32
+    },
+    {
+      "offset": 51301832,
+      "bytes": 32
+    },
+    {
+      "offset": 51301864,
+      "bytes": 32
+    },
+    {
+      "offset": 47441064,
+      "bytes": 32
+    },
+    {
+      "offset": 47441096,
+      "bytes": 32
+    },
+    {
+      "offset": 47500360,
+      "bytes": 32
+    },
+    {
+      "offset": 51301992,
+      "bytes": 32
+    },
+    {
+      "offset": 47482056,
+      "bytes": 32
+    },
+    {
+      "offset": 47481448,
+      "bytes": 32
+    },
+    {
+      "offset": 47456808,
+      "bytes": 32
+    },
+    {
+      "offset": 32110424,
+      "bytes": 32
+    },
+    {
+      "zero_bytes": 32
+    }
+  ],
+  "event_counts": [
+    16,
+    16,
+    15
+  ],
+  "template_SHA256": "f6685fd57275919e61f2d627aa2c45088728d03105e9794c25592bc38e029f42",
+  "header_offset": 50947872,
+  "header_bytes": 340,
+  "header_edits": [
+    {
+      "offset": 136,
+      "value": 2445
+    },
+    {
+      "offset": 136,
+      "value": 3228
+    },
+    {
+      "offset": 136,
+      "value": 3229
+    }
+  ],
+  "headers_binary_SHA256": "1927b56717adac7a4b5c68fa1a78d3487d5b875d17cc6c467e10aa6274ba8e1b",
+  "displaced_word_offset": 787844
+}
