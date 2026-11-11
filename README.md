@@ -35,3 +35,5 @@ python3 -B tools/build.py --module /private/eg1990_053200.bi --output /private/n
 源配方方法参考 [NikonFirmwarePatch](https://github.com/XinmiaoZhao/NikonFirmwarePatch/tree/1a60fc00ff082b6ccc346db0df626662308b3974)；QEMU/HE研究参考 [RdWing/z8-qemu](https://github.com/RdWing/z8-qemu/tree/9881d71053dacadbb81d2b352533ccf6a52cd604)。这里只列历史研究固定提交，未声称是上游最新版本或把其Z8地址直接用于Z9。
 
 音频研究与独立发布见 [mark2 v14](https://github.com/s3lemming/z9-firmware-patch/tree/241b8031aec14761610128036fd4e8d88583a419)。本仓库使用集成运行时堆/锚点布局，不能混用独立mark2固定BSS或产物身份。未复制上游RAW补丁实现、CEVA微码或厂商私有材料。新写代码GPL-3.0-or-later，见LICENSE/NOTICE。
+
+[菜单研究、调用内存及移植说明](docs/porting/README.md)

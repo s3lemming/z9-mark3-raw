@@ -22,7 +22,7 @@
       "kind": "authored source/recipe/test/documentation or standard GPL license"
     },
     "README.md": {
-      "SHA256": "ba3a58fcfca1b9dce47af98dde3c68cd438a36c116b0f6f9ae8d1ea199bdeda9",
+      "SHA256": "ef374a8256510fa9c232cba71326a8c3bc043769741dc967867ea8c2b0652f86",
       "kind": "authored source/recipe/test/documentation or standard GPL license"
     },
     "docs/assets/screens/c15-c30-format.png": {
@@ -534,7 +534,7 @@
       "kind": "authored source/recipe/test/documentation or standard GPL license"
     },
     "docs/f2-recall-precapture.zh-CN.md": {
-      "SHA256": "9144f84596714e06712dc775aebc95281be9445975e04a9e411553f4e3b2cd95",
+      "SHA256": "628b8cbf0069e1ff00a66cbe61ccb9150e7ef538926d84b1847522eede7a56ac",
       "kind": "authored source, local-input recipe, contract test or documentation"
     },
     "tests/f2_recall.py": {
@@ -554,7 +554,7 @@
       "kind": "authored source, local-input recipe, contract test or documentation"
     },
     "variants/f2-recall/README.md": {
-      "SHA256": "6fb18abb9257235c33ecf7d360b51a5a71b82404cb6b1f161451d56ed0b0066c",
+      "SHA256": "47456c649b4d9fda89ff0fac3739d63297f2ce79171e6bdc27a7006e53b4d24e",
       "kind": "authored source, local-input recipe, contract test or documentation"
     },
     "variants/f2-recall/firmware/format_policy.c": {
@@ -1012,6 +1012,30 @@
     "variants/f2-recall/firmware/mark2_audio/runtime.c": {
       "SHA256": "38a49a22201ed5a2e2b78f6963a76a2aa1075521acb1a780886e7b4aeaf5fa77",
       "kind": "authored source, local-input recipe, contract test or documentation"
+    },
+    "tools/f2_porting_layout.py": {
+      "SHA256": "b41b73fabc7875e755227f8fed05e95f56b804542a813d273272dd2eff25bc4a",
+      "kind": "authored porting documentation, numeric interface reference or layout tool"
+    },
+    "docs/porting/f2-reference.json": {
+      "SHA256": "113bd51e939260841460ec5ea53c935c1f0d65ff7aac2bd4c2dfca362283ca61",
+      "kind": "authored porting documentation, numeric interface reference or layout tool"
+    },
+    "docs/porting/menu-research.zh-CN.md": {
+      "SHA256": "e1a028bc433e8ed56cb84abe0972ffe2db4dad95d1a5cbf8da33d43d6a073f26",
+      "kind": "authored porting documentation, numeric interface reference or layout tool"
+    },
+    "docs/porting/README.md": {
+      "SHA256": "6ded5f3e38a0c25d1f163c523acea145251c94fd19f36eec339f4be0de57e24a",
+      "kind": "authored porting documentation, numeric interface reference or layout tool"
+    },
+    "docs/porting/recall-memory-abi.zh-CN.md": {
+      "SHA256": "920b68e71eee9fbbdf7821067db0606111730eda40e3ee3608fb2974f1304e13",
+      "kind": "authored porting documentation, numeric interface reference or layout tool"
+    },
+    "docs/porting/recall-porting-guide.zh-CN.md": {
+      "SHA256": "116e1b4e242e013f44154214553671170ea0ec8f3a15df7084a94c0a4900c364",
+      "kind": "authored porting documentation, numeric interface reference or layout tool"
     }
   }
 }
